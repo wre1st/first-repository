@@ -12,7 +12,7 @@ import com.model.Person;
 
 @WebServlet("/home")
 public class HomeController extends HttpServlet{
-	
+	//pushing the code to git
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException{
 
 		Person person=new Person();
